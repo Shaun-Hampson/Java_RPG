@@ -1,0 +1,18 @@
+package Model;
+
+public class RPGModel {
+	
+	private PlayerCharacter player;
+
+	public RPGModel() {
+		
+	}
+	
+	public PlayerCharacter getPlayerCharacter() {
+		return this.player;
+	}
+	
+	public void setPlayerCharacter(PlayerCharacter player) {
+		this.player = player;
+	}
+}

@@ -1,0 +1,11 @@
+package RPG;
+
+public class RPGMain {
+
+	public static void main(String[] args) {
+		RPG rpg = new RPG();
+		RPGView view = new RPGView();
+		RPGController controller = new RPGController(rpg, view);
+	}
+
+}

@@ -1,0 +1,16 @@
+package Model;
+
+public class Character {
+	
+	protected double health;
+	protected double attack;
+	protected double speed;
+	protected int shield;
+
+	public Character(double health, double attack, double speed, int shield) {
+		this.health = health;
+		this.attack = attack;
+		this.speed = speed;
+		this.shield = shield;
+	}
+}
